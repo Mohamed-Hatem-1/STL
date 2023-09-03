@@ -84,5 +84,9 @@ int main() {
     ms.erase(ms.find(5) ); // will delete just one occurrence of the value (5) in the ms
     cout << "Multiset is\n";
     for (auto i : ms) cout << i << " "; cout << "\n";
+
+    // Un-ordered set
+    // Use unordered_set when you need faster insertion and lookup operations and don't care about the order of elements
+    
     return 0;
 }
