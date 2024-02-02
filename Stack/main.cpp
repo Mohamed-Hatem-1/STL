@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Last in first out -> LIFO
-    // Stack, Queue and PriorityQueue built by deque
+    // Stack built by deque, vector, and list
     // Have no random access
     // Push, Pop, and Size --> O(1)
 
