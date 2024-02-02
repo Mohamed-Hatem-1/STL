@@ -2,6 +2,7 @@
 using namespace std;
 
 bool if_Even(int x) { return !(x % 2); }
+bool smallerThan5(int x) { return x < 5; }
 
 int main() {
     // Fast insert and delete from everywhere --> O(1)
@@ -70,6 +71,7 @@ int main() {
     // Remove_if
     list<int>l6 = {1, 2, 3, 4, 5, 6, 7};
     l6.remove_if(if_Even);
-    for (auto it : l6) cout << it << " "; cout << "\n"; // 1 3 5 7
+    l6.remove_if(smallerThan5);
+    for (auto it : l6) cout << it << " "; cout << "\n"; // 5 7
     return 0;
 }
