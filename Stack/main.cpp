@@ -32,13 +32,13 @@ int main() {
 
     s2.swap(s3);
     cout << "s2 after swap : ";
-    for (int i = 0; !s2.empty(); ++i) {
+    while (!s2.empty()) {
         cout << s2.top() << " ";
         s2.pop();
     }
     // s2 after swap : 13 12 11 10
     cout << "s3 after swap : ";
-    for (int i = 0; !s3.empty(); ++i) {
+    while (!s3.empty()) {
         cout << s3.top() << " ";
         s3.pop();
     }
