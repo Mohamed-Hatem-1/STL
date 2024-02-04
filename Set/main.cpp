@@ -95,7 +95,10 @@ int main() {
     for (auto i : ms) cout << i << " "; cout << "\n"; // 0 2 2 3 5 5
 
     // Unordered set
-    // Use unordered_set when you need faster insertion and lookup operations and don't care about the order of elements
+    // The order of elements is always random and fast operations (insert, erase, find) --> O(1)
+
+    // Unordered multiset
+    // Same as unordered set but allows frequency
     
     return 0;
 }
