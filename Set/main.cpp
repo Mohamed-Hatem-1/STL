@@ -25,6 +25,8 @@ int main() {
     for (auto i : s) cout << i << " "; cout << "\n"; // -2 -1 0 1 2 3 4 5 8 10
     cout << "**************************************************\n";
 
+    // Search
+    // count = contains
     cout << (s.count(0)? "0 exist\n" : "0 doesn't exist\n"); // count() -> return 1 if the element exist and 0 if not // 0 exist
     cout << (s.count(9)? "9 exist\n" : "9 doesn't exist\n"); // count() -> return 1 if the element exist and 0 if not // 9 doesn't exist
     cout << "**************************************************\n";
