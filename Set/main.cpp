@@ -5,6 +5,7 @@ int main() {
     // Always Sorted
     // Unique elements
     // Fast insert, delete, search --> O(log n)
+    // Built by tree
 
     // Can't modify elements & No random Access
     // No push_back / push_front
